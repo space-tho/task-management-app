@@ -32,7 +32,7 @@ A full-stack task management application with a FastAPI Python backend and React
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd task-management-app
+   cd task-management-app/backend
    ```
 
 2. Activate the virtual environment
