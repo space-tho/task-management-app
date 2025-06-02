@@ -32,7 +32,7 @@ A full-stack task management application with a FastAPI Python backend and React
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd ToDoListProject
+   cd task-management-app
    ```
 
 2. Activate the virtual environment
@@ -46,7 +46,7 @@ A full-stack task management application with a FastAPI Python backend and React
    ```
 4. Run the backend server:
    ```
-   uvicorn backend.main:app --reload
+   python main.py
    ```
 
    The API will be available at http://localhost:8000
@@ -65,7 +65,7 @@ A full-stack task management application with a FastAPI Python backend and React
 
 3. Run the frontend development server:
    ```
-   npm start
+   npm run dev
    ```
 
    The frontend will be available at http://localhost:5173
