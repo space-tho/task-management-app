@@ -24,8 +24,8 @@ A full-stack task management application with a FastAPI Python backend and React
 ### Prerequisites
 
 - Python 3.8 or higher
-- Node.js 14 or higher
-- npm or yarn
+- Node.js 20 or higher
+- npm
 
 ### Backend Setup
 
@@ -61,6 +61,7 @@ A full-stack task management application with a FastAPI Python backend and React
 2. Install frontend dependencies:
    ```
    npm install
+   npm install axios
    ```
 
 3. Run the frontend development server:
@@ -151,7 +152,6 @@ DELETE /tasks/{task_id}
 
 3. **User Interface**:
    - Clean, modern UI using Cloudscape Design components
-   - Responsive design for various screen sizes
    - Modal dialogs for creating and editing tasks
    - Status indicators for task completion state
 
